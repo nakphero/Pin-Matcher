@@ -12,7 +12,7 @@ document.getElementById('generateSubmit').addEventListener('click', function(){
         document.getElementById('generateInput').value = ' ';
         document.getElementById('generateOutput').value = ' ';
     }
-    
+
     if(generateInput !== generateOutput){
     const submitOutputError = document.getElementById('outputError');
         submitOutputError.style.display = 'block';
@@ -46,6 +46,3 @@ document.getElementById('generateSubmit').addEventListener('click', function(){
     }
 
 });
-
-
-
